@@ -77,9 +77,59 @@
   #RESET
 \*-----------------------------------*/
 
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+li { list-style: none; }
 
+a,
+img,
+span,
+input,
+button,
+ion-icon { display: block; }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+}
+
+input,
+button {
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+input { width: 100%; }
+
+button { cursor: pointer; }
+
+address { font-style: normal; }
+
+ion-icon { pointer-events: none; }
+
+html {
+  font-family: var(--fontFamily-inter);
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-white);
+  color: var(--text-eerie-black-2);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
 
 /*-----------------------------------*\
   #REUSED STYLE
