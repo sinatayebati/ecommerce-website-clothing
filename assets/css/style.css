@@ -1,4 +1,9 @@
 /*-----------------------------------*\
+  #GOOGLE FONTS
+\*-----------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/*-----------------------------------*\
   #style.css
 \*-----------------------------------*/
 
@@ -134,7 +139,9 @@ body {
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
-
+.container{
+  padding-inline: 16px;
+}
 
 
 
@@ -143,9 +150,34 @@ body {
   #HEADER
 \*-----------------------------------*/
 
+.logo{
+  font-weight: var(--weight-semiBold);
+}
 
+.navbar,
+.navbar .btn{
+  display: none;
+}
 
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-block: 20px;
+  z-index: 4;
+}
 
+.header.active{
+  background-color: var(--bg-white);
+  box-shadow: var(--shadow-1);
+}
+
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /*-----------------------------------*\
   #HERO
