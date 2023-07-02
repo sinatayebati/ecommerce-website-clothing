@@ -20,6 +20,7 @@
   --bg-white: hsla(0, 0%, 100%, 1);
   --bg-gainsboro: hsla(154, 10%, 86%, 1);
   --bg-wild-blue-yonder: hsla(227, 39%, 75%, 1);
+  --bg-light-blue: rgb(166, 196, 216);
   --bg-orange-crayola: hsla(18, 97%, 62%, 1);
   --bg-roman-silver-alpha-30: hsla(210, 9%, 57%, 0.3);
 
@@ -297,8 +298,15 @@ body {
   #HERO
 \*-----------------------------------*/
 
+.hero{
+  background-color: var(--bg-wild-blue-yonder);
+  padding-block: 130px 75px;
+}
 
-
+.hero .container{
+  display: grid;
+  gap: 50px;
+}
 
 
 /*-----------------------------------*\
