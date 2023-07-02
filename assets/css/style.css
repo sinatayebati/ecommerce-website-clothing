@@ -131,6 +131,7 @@ body {
   color: var(--text-eerie-black-2);
   font-size: 1.6rem;
   line-height: 1.5;
+  height: 300vh;
 }
 
 /*-----------------------------------*\
@@ -203,6 +204,21 @@ body {
 }
 
 .navbar-link{
+  font-weight: var(--weight-semiBold);
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+.card-btn{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 25px 20px;
+  font-weight: var(--weight-semiBold);
+  text-transform: uppercase;
+}
+
+.span{
   font-weight: var(--weight-semiBold);
   text-transform: uppercase;
 }
