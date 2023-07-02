@@ -141,8 +141,48 @@ body {
   padding-inline: 16px;
 }
 
+.shape{
+  display: none;
+}
 
+.title{
+  font-family: var(--fontFamily-clashDisplay);
+  font-weight: var(--weight-semiBold);
+  line-height: 1.2;
+}
 
+.h1{
+  font-size: var(--fontSize-2);
+}
+
+.h2{
+  font-size: var(--fontSize-2);
+}
+
+.h3{
+  font-size: var(--fontSize-5);
+}
+
+.h4{
+  font-size: var(--fontSize-6);
+}
+
+.btn{
+  background-color: var(--bg-white);
+  display: flex;
+  align-items: center;
+  max-width: max-content;
+  min-width: max-content;
+  padding: 15px 30px;
+  border: 2px solid var(--border-eerie-black);
+  box-shadow: var(--shadow-2);
+  font-weight: var(--weight-semiBold);
+  transition: var(--transition-1);
+}
+
+.btn:is(:hover, :focus-visible){
+  box-shadow: none;
+}
 
 /*-----------------------------------*\
   #HEADER
