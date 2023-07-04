@@ -20,7 +20,7 @@
   --bg-white: hsla(0, 0%, 100%, 1);
   --bg-gainsboro: hsla(154, 10%, 86%, 1);
   --bg-wild-blue-yonder: hsla(227, 39%, 75%, 1);
-  --bg-light-blue: rgb(228, 113, 88);
+  --bg-light-blue: rgb(232, 223, 224);
   --bg-orange-crayola: hsla(18, 97%, 62%, 1);
   --bg-roman-silver-alpha-30: hsla(210, 9%, 57%, 0.3);
 
@@ -216,6 +216,37 @@ body {
   object-fit: cover;
 }
 
+.section{
+  padding-block: 75px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.section-title{
+  margin-block-end: 45px;
+}
+
+.product-btn{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  font-size: var(--fontSize-9);
+  gap: 8px;
+  opacity: 0;
+}
+
+.product-btn ion-icon {
+  font-size: 1.4rem;
+}
+
+.product-card:is(:hover, :focus-within) .product-btn {opacity: 1;}
+
+
+
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -299,7 +330,7 @@ body {
 \*-----------------------------------*/
 
 .hero{
-  background-color: var(--bg-light-blue);
+  background-color: var(--bg-wild-blue-yonder);
   padding-block: 130px 75px;
 }
 
@@ -307,6 +338,32 @@ body {
   display: grid;
   gap: 50px;
 }
+
+.hero-subtitle{
+  font-size: var(--fontSize-4);
+}
+
+.hero-title{
+  margin-block: 16px 30px;
+}
+
+.hero-text{
+  font-size: var(--fontSize-8);
+  line-height: 2.1;
+  margin-block-end: 16px;
+}
+
+.hero-banner{
+  max-width: max-content;
+  margin-inline: auto;
+}
+
+
+/*-----------------------------------*\
+  #PRODUCT
+\*-----------------------------------*/
+
+
 
 
 /*-----------------------------------*\
