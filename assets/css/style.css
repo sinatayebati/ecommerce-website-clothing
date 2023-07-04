@@ -230,7 +230,7 @@ body {
 
 .product-btn{
   position: absolute;
-  top: 50px;
+  top: 50x;
   left: 50px;
   transform: translate(-50%, -50%);
   font-size: var(--fontSize-9);
@@ -244,7 +244,9 @@ body {
 
 .product-card:is(:hover, :focus-within) .product-btn {opacity: 1;}
 
-
+.product-card .card-banner{
+  position: relative;
+}
 
 
 /*-----------------------------------*\
