@@ -230,8 +230,8 @@ body {
 
 .product-btn{
   position: absolute;
-  top: 50x;
-  left: 50px;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-size: var(--fontSize-9);
   gap: 8px;
