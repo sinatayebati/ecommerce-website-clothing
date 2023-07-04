@@ -248,6 +248,14 @@ body {
   position: relative;
 }
 
+.product-card .card-content{
+  margin-block-start: 30px;
+}
+
+.product-card .card-title:is(:hover, :focus-visible){
+  text-decoration: underline;
+}
+
 
 /*-----------------------------------*\
   #HEADER
