@@ -398,9 +398,19 @@ body {
   #FEATURE
 \*-----------------------------------*/
 
+.section .feature{
+  padding-block-start: 0;
+}
 
+.feature-list{
+  display: grid;
+  gap: 60px;
+  margin-block-end: 60px;
+}
 
-
+.feature .btn{
+  margin-inline: auto;
+}
 
 /*-----------------------------------*\
   #OFFER
