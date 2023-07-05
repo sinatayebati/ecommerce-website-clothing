@@ -256,6 +256,30 @@ body {
   text-decoration: underline;
 }
 
+.product-card .price{
+  color: var(--text-orange-crayola);
+  font-family: var(--fontFamily-clashDisplay);
+  font-size: var(--fontSize-7);
+  font-weight: var(--weight-semiBold);
+  margin-block-start: 10px;
+}
+
+.has-scrollbar{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  scroll-snap-type: inline mandatory;
+  overflow-x: auto;
+}
+
+.has-scrollbar::-webkit-scrollbar{
+  display: none;
+}
+
+.scrollbar-item{
+  min-width: 100%;
+  scroll-snap-align: start;
+}
 
 /*-----------------------------------*\
   #HEADER
@@ -264,6 +288,7 @@ body {
 .logo{
   font-weight: var(--weight-Bold);
   font-size: var(--fontSize-7);
+  font-family: var(--fontFamily-clashDisplay);
 }
 
 .navbar .btn{
@@ -367,13 +392,6 @@ body {
   max-width: max-content;
   margin-inline: auto;
 }
-
-
-/*-----------------------------------*\
-  #PRODUCT
-\*-----------------------------------*/
-
-
 
 
 /*-----------------------------------*\
