@@ -281,6 +281,12 @@ body {
   scroll-snap-align: start;
 }
 
+.has-bg-image{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -416,9 +422,26 @@ body {
   #OFFER
 \*-----------------------------------*/
 
+.offer{
+  padding-block: 90px;
+}
 
+.offer-card{
+  background-color: var(--bg-white);
+  border: 2px solid var(--border-eerie-black);
+  box-shadow: var(--shadow-2);
+  padding: 20px 20px;
+}
 
+.offer-card .card-title{
+  font-size: var(--fontSize-1);
+}
 
+.offer-card .card-text{
+  font-size: var(--fontSize-8);
+  line-height: 1.8;
+  margin-block: 20px 45px;
+}
 
 /*-----------------------------------*\
   #FOOTER
