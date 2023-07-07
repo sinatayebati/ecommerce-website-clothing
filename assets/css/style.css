@@ -67,6 +67,12 @@
   --shadow-3: 2px 2px 0px hsla(0, 0%, 7%, 1);
 
   /**
+  * BORDER RADIUS
+  */
+
+  --radius-circle: 50%;
+
+  /**
   * TRANSITION
   */
   --transition-1: 250ms ease;
@@ -447,8 +453,41 @@ body {
   #FOOTER
 \*-----------------------------------*/
 
+.footer{
+  position: relative;
+  background-color: var(--bg-gainsboro);
+  padding-block-start: 160px;
+}
 
+.footer-top{
+  display: grid;
+  gap: 30px;
+  font-size: var(--fontSize-8);
+  line-height: 1.7;
+  margin-block-end: 60px;
+}
 
+.footer .logo{
+  margin-block-end: 35px;
+}
+
+.social-list{
+  display: flex;
+  gap: 10px;
+  margin-block-start: 30px;
+}
+
+.social-link{
+  background-color: var(--bg-white);
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-circle);
+  border: 2px solid var(--border-eerie-black);
+  box-shadow: var(--shadow-3);
+  transition: var(--transition-1);
+}
 
 
 /*-----------------------------------*\
