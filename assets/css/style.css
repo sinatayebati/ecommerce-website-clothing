@@ -489,6 +489,31 @@ body {
   transition: var(--transition-1);
 }
 
+.social-link:is(:hover, :focus-visible){
+  box-shadow: none;
+  color: var(--text-orange-crayola);
+  transform: translateY(-2px);
+  border-color: currentColor;
+}
+
+.footer-list-title{
+  font-size: var(--fontSize-10);
+  margin-block-end: 30px;
+}
+
+address.footer-text{
+  margin-block-end: 15px;
+}
+
+.input-field{
+  background-color: var(--bg-white);
+  box-shadow: var(--shadow-2);
+  padding: 15px 30px;
+  border: 2px solid var(--border-eerie-black);
+  margin-block-end: 25px;
+  outline: none;
+  transition: var(--transition-1);
+}
 
 /*-----------------------------------*\
   #MEDIA QUERIES
