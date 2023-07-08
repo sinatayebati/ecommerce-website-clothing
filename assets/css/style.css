@@ -515,6 +515,49 @@ address.footer-text{
   transition: var(--transition-1);
 }
 
+.input-field:focus{
+  box-shadow: none;
+}
+
+.footer .btn{
+  font-size: 1.6rem;
+  padding-inline: 40px;
+}
+
+.footer-bottom .wrapper{
+  border-block-end: 2px solid var(--border-eerie-black);
+  padding-block-end: 15px;
+}
+
+.link-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 30px;
+  margin-block-end: 15px;
+}
+
+.footer-bottom-link{
+  font-size: var(--fontSize-9);
+  font-weight: var(--weight-semiBold);
+  text-transform: uppercase;
+  transition: var(--transition-1);
+}
+
+.footer-bottom-link:is(:hover, :focus-visible){color: var(--text-orange-crayola);}
+
+.copyright{
+  padding-block: 3px;
+  font-size: var(--fontSize-8);
+  text-align: center;
+}
+
+.footer .shape-1{
+  display: block;
+  top: 0;
+  right: 0;
+}
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
