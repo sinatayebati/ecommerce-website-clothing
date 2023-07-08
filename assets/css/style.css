@@ -150,6 +150,7 @@ body {
 
 .shape{
   display: none;
+  position: absolute;
 }
 
 .title{
