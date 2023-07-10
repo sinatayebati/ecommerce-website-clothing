@@ -691,5 +691,49 @@ address.footer-text{
 * responsive for larger than 992px screen
 */
 
-@media(min-width: 992px)
+@media(min-width: 992px){
+
+  /**
+  * REUSED STYLE
+  */
+
+  .container{
+    max-width: 960px;
+  }
+
+  /**
+  * HEADER
+  */
+
+  .header{
+    padding-block: 0;
+  }
+
+  .header .container{
+    border-block-end: 2px solid var(--border-eerie-black);
+  }
+
+  .nav-open-btn{
+    display: none;
+  }
+
+  .navbar,
+  .navbar.active{
+    all: unset;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-list{
+    padding-block-start: 0;
+    display: flex;
+  }
+
+  .cart-btn{
+    border-inline-start: 2px solid var(--border-eerie-black);
+    padding-inline-start: 50px;
+    margin-inline-start: 20px;
+  }
+
+}
 
