@@ -562,3 +562,97 @@ address.footer-text{
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
+
+/**
+* responsive for larger than 575px screen
+*/
+
+@media(min-width: 575px){
+
+  /**
+  * REUSED STYLE
+  */
+
+
+  .container{
+    max-width: 540px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  /**
+  * OFFER
+  */
+
+  .offer-card{
+    padding-inline: 50px;
+  }
+}
+
+
+/**
+* responsive for larger than 768px screen
+*/
+
+@media(min-width: 768px){
+
+  /**
+  * CUSTOM PROPERTY
+  */
+
+  :root{
+    /**
+    * TYPOGRAPHY
+    */
+
+    /* font size */
+    --fontSize-4: 4.2rem;
+    --fontSize-2: 7.8rem;
+    --fontSize-3: 6.6rem;
+  }
+
+  /**
+  * REUSED STYLE
+  */
+
+  .container{
+    max-width: 720px;
+  }
+
+  .btn{
+    padding: 20px 50px;
+  }
+
+  .section{
+    padding-block: 150px;
+  }
+
+  .scrollbar-item{
+    min-width: calc(50% - 20px);
+  }
+
+  .product-btn{
+    padding: 15px 30px;
+  }
+
+  /**
+  * HERO
+  */
+
+  .hero{
+    padding-block: 200px 130px;
+  }
+
+  .hero-text{
+    --fontSize-8: 2.2rem;
+    line-height: 1.8;
+  }
+
+  .hero .btn{
+    margin-block-start: 50px;
+  }
+
+  
+
+}
+
