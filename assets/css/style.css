@@ -590,6 +590,9 @@ address.footer-text{
 }
 
 
+
+
+
 /**
 * responsive for larger than 768px screen
 */
@@ -652,7 +655,41 @@ address.footer-text{
     margin-block-start: 50px;
   }
 
-  
+  /**
+  * FEATURE
+  */
+
+  .feature-list{
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+  }
+
+  /**
+  * OFFER
+  */
+
+  .offer-card{
+    padding-inline: 90px;
+  }
+
+  /**
+  * FOOTER
+  */
+
+  .footer-top{
+    grid-template-columns: 1fr 1fr;
+  }
 
 }
+
+
+
+
+
+
+/**
+* responsive for larger than 992px screen
+*/
+
+@media(min-width: 992px)
 
