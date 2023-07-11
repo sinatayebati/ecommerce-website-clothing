@@ -548,9 +548,10 @@ address.footer-text{
 .footer-bottom-link:is(:hover, :focus-visible){color: var(--text-orange-crayola);}
 
 .copyright{
-  padding-block: 3px;
+  padding-block: 20px;
   font-size: var(--fontSize-8);
   text-align: center;
+  
 }
 
 .footer .shape-1{
@@ -874,6 +875,51 @@ address.footer-text{
     text-align: left;
     padding-block-end: 50px;
   }
-
+  
 }
 
+
+
+
+
+
+/**
+* responsive for larger than 1400px screen
+*/
+
+@media(min-width: 1400px){
+
+
+  /**
+  * CUSTOM PROPERTY
+  */
+
+  :root{
+
+    /**
+    * TYPOGRAPHY
+    */
+
+    /* foont size */
+
+    --fontSize-2: 9rem;
+
+  }
+
+  /**
+  * REUSED STYLE
+  */
+
+  .container{
+    max-width: 1320px;
+  }
+
+  /**
+  * FOOTER
+  */
+
+  .footer-bottom-link{
+    font-size: 1.6rem;
+  }
+
+}
