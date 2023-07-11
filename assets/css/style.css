@@ -735,5 +735,118 @@ address.footer-text{
     margin-inline-start: 20px;
   }
 
+  .header.active .container,
+  .header.active .cart-btn{
+    border: none;
+  }
+
+  /**
+  * FOOTER
+  */
+
+  .footer .shape-2{
+    display: block;
+    bottom: 100px;
+    left: 0;
+  }
+
+}
+
+
+
+
+
+
+
+
+/**
+* responsive for larger than 1200px screen
+*/
+
+@media(min-width: 1200px){
+
+  /**
+  * REUSED STYLE
+  */
+
+  .container{
+    max-width: 1140px;
+  }
+
+  .scrollbar-item{
+    min-width: calc(33.33% - 40px);
+  }
+
+  .shape{
+    display: block;
+  }
+
+  /**
+  * HEADER
+  */
+
+  .cart-btn{
+    padding-block: 35px;
+  }
+
+  .navbar .btn{
+    display: block;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    margin-inline-start: 20px;
+  }
+
+  /**
+  * HERO
+  */
+
+  .hero{
+    position: relative;
+  }
+
+  .hero .container{
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .hero-banner{
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero .shape-1{
+    top: -140px;
+    left: -120px;
+    z-index: -1;
+  }
+
+  .hero .shape-2{
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /**
+  *
+  */
+
+  .feature-list{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /**
+  * OFFER
+  */
+
+  .offer{
+    padding-block: 300px;
+  }
+
+  .offer-card{
+    width: 40%;
+  }
+
+
+
 }
 
