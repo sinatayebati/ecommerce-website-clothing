@@ -846,7 +846,34 @@ address.footer-text{
     width: 40%;
   }
 
+  /**
+  * FOOTER
+  */
 
+  .footer-top{
+    grid-template-columns: repeat(3, 1fr);
+    margin-block-end: 160px;
+  }
+
+  .footer-bottom .wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer .shape-2{
+    bottom: 160px;
+  }
+
+  .footer .shape-3{
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+
+  .copyright{
+    text-align: left;
+    padding-block-end: 50px;
+  }
 
 }
 
