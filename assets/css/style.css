@@ -568,6 +568,42 @@ address.footer-text{
 * responsive for larger than 575px screen
 */
 
+@media(min-width: 350px){
+
+  /**
+  * REUSED STYLE
+  */
+
+
+  .container{
+    max-width: 300px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .container-offer{
+    max-width: 300px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .offer{
+    padding-block: 300px;
+  }
+
+  .offer-card{
+    padding-inline: 40px;
+  }
+
+}
+
+
+
+
+/**
+* responsive for larger than 575px screen
+*/
+
 @media(min-width: 575px){
 
   /**
@@ -581,9 +617,19 @@ address.footer-text{
     margin-inline: auto;
   }
 
+  .container-offer{
+    max-width: 300px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
   /**
   * OFFER
   */
+
+  .offer{
+    padding-block: 300px;
+  }
 
   .offer-card{
     padding-inline: 50px;
@@ -621,6 +667,12 @@ address.footer-text{
 
   .container{
     max-width: 720px;
+  }
+
+  .container-offer{
+    max-width: 450px;
+    width: 100%;
+    margin-inline: auto;
   }
 
   .btn{
@@ -669,8 +721,12 @@ address.footer-text{
   * OFFER
   */
 
+  .offer{
+    padding-block: 300px;
+  }
+
   .offer-card{
-    padding-inline: 90px;
+    padding-inline: 120px;
   }
 
   /**
@@ -700,6 +756,12 @@ address.footer-text{
 
   .container{
     max-width: 960px;
+  }
+
+  .container-offer{
+    max-width: 600px;
+    width: 100%;
+    margin-inline: auto;
   }
 
   /**
@@ -774,6 +836,12 @@ address.footer-text{
     max-width: 1140px;
   }
 
+  .container-offer{
+    max-width: 600px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
   .scrollbar-item{
     min-width: calc(33.33% - 40px);
   }
@@ -844,7 +912,7 @@ address.footer-text{
   }
 
   .offer-card{
-    width: 40%;
+    padding-inline: 120px;
   }
 
   /**
