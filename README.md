@@ -1,5 +1,5 @@
 # Responsive Ecommerce Clothing Website
-A minimal responsive ecommerce clothing website built with HTML CSS JavaScript
+A minimal responsive ecommerce website for clothing, built with HTML CSS JavaScript
 
 ## <a href="https://sinatayebati.github.io/ecommerce-website-clothing/">Demo</a>
 
