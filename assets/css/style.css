@@ -982,6 +982,20 @@ address.footer-text{
     max-width: 1320px;
   }
 
+  .container-offer{
+    max-width: 800px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .offer{
+    padding-block: 350px;
+  }
+
+  .offer-card{
+    padding-inline: 120px;
+  }
+
   /**
   * FOOTER
   */
