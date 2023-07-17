@@ -25,3 +25,13 @@ window.addEventListener("scroll", function() {
 /**
  * SWIPER   
  */
+
+let swiper = new Swiper(".new__container", {
+  cssMode: true,
+  lopp: true,
+  
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});

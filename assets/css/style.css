@@ -406,10 +406,47 @@ body {
   margin-inline: auto;
 }
 
+/*-----------------------------------*\
+  #NEW PRODUCT
+\*-----------------------------------*/
+
+.new__container{
+  overflow: initial;
+}
+
+.new__content{
+  padding: 0;
+}
+
 
 /*-----------------------------------*\
   #FEATURE
 \*-----------------------------------*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
 
 .section .feature{
   padding-block-start: 0;
@@ -424,6 +461,8 @@ body {
 .feature .btn{
   margin-inline: auto;
 }
+
+
 
 /*-----------------------------------*\
   #OFFER

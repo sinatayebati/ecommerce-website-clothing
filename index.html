@@ -24,16 +24,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/fonts/font.css">
-    
-    <!--
-        - swiper css
-    -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <!--
         - custom css links
     -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--
+        - swiper css
+    -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
     <!--
         - preload images
@@ -265,13 +265,13 @@
                 - # NEW PRODUCTS with SWIPER
             -->
             
-            <section class="new section" id="new">
+            <section class="new section" aria-label="prodct" id="new">
                 <h2 class="h2 section-title title text-center">Explore new arrivals</h2>
 
-                <div class="new__container container">
-                    <div>
-                        <!--======== FEATURED 1 =========-->
-                        <div class="new__content grid">
+                <div class="new__container container swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!--======== NEW 1 =========-->
+                        <div class="new__content grid swiper-slide">
                             <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
                                 <img src="assets/image/product-1.jpg" width="448" height="470" 
                                 loading="lazy" alt="Short Sleeve Shirt 01" class="img-cover">
@@ -290,8 +290,8 @@
                             </div>
                         </div>
 
-                        <!--======== FEATURED 2 =========-->
-                        <div class="featured__content grid">
+                        <!--======== NEW 2 =========-->
+                        <div class="new__content grid swiper-slide">
                             <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
                                 <img src="assets/image/product-4.jpg" width="448" height="470" 
                                 loading="lazy" alt="Short Sleeve Shirt 01" class="img-cover">
@@ -310,8 +310,8 @@
                             </div>
                         </div>
 
-                        <!--======== FEATURED 3 =========-->
-                        <div class="featured__content grid">
+                        <!--======== NEW 3 =========-->
+                        <div class="new__content grid swiper-slide">
                             <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
                                 <img src="assets/image/product-8.jpg" width="448" height="470" 
                                 loading="lazy" alt="Short Sleeve Shirt 01" class="img-cover">
@@ -329,8 +329,9 @@
                                 <span class="price">$100.00</span>
                             </div>
                         </div>
-
                     </div>
+
+                    <div class="swiper-pagination"></div>
                 </div>
             </section>
         
@@ -716,15 +717,15 @@
     <script src="assets/js/script.js"></script>
 
     <!--
+        - SWIPER JS
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!--
         - ionicon link
     -->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-    <!--
-        - SWIPER JS
-    -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
 
     
 </body>
