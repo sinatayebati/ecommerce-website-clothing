@@ -279,10 +279,6 @@ body {
   overflow-x: auto;
 }
 
-.has-scrollbar::-webkit-scrollbar{
-  display: none;
-}
-
 .scrollbar-item{
   min-width: 100%;
   scroll-snap-align: start;
