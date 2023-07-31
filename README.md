@@ -5,15 +5,13 @@ A minimal responsive ecommerce website for clothing, built with HTML CSS JavaScr
 
 <p align="center">
     <img src="assets/demo-img/Screenshot 2023-07-11 at 11.51.01 PM.png"
-    width = 300px
+    width = 345px
     >
-</p>
-
-<p align="center">
     <img src="assets/demo-img/Screenshot 2023-07-11 at 11.52.32 PM.png"
     width = 300px
     >
 </p>
+
 
 ## Deploying to Github Pages
 
